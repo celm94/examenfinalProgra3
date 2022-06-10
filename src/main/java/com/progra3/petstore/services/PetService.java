@@ -6,10 +6,11 @@ import com.progra3.petstore.entities.Pet;
 
 public interface PetService {
 	
-	List<Pet> listAll();
-	Pet findById(Long id);
+	public List<Pet> listAll();
+	public Pet findById(Long id);
 	public void createPet(Pet pet);
-	Pet updatePet(Long id, Pet pet);
-	void deletePet(Long id);
+	public void updatePet(Long id, Pet pet);
+	public void deletePet(Long id);
+
 
 }

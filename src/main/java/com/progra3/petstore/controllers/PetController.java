@@ -4,9 +4,16 @@ import java.util.List;
 
 import com.progra3.petstore.entities.Pet;
 import com.progra3.petstore.services.PetService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+
+@RestController
+@RequestMapping("/pets")
 public class PetController {
-	
+
+	@Autowired
 	PetService service;
 	
 	public List<Pet> findAll(){
