@@ -19,14 +19,14 @@ public class PetController {
 	
 	public Pet createPet(Pet pet) {
 		
-	}
+	return null; }
 	
 	public Pet updatePet(Long id, Pet pet) {
-		
+		return null;
 	}
 	
 	public void deletePet(Long id) {
-		return service.deletePet(id);
+		//return service.deletePet(id);
 	}
 
 }
