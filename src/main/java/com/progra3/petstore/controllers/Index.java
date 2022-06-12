@@ -8,6 +8,6 @@ public class Index {
 
 	@GetMapping
 	private String index() {
-		return "Bienvenido Examen Final de Programacion";
+		return "Bienvenido Examen Final de Programacion :)";
 	}
 }
